@@ -20,6 +20,6 @@ class testCase(unittest.TestCase):
     def test4(self):
         self.assertEqual(self.calculator.division(10, 5), (2))
 
-        
+
 if __name__ == "__main__":
     unittest.main()
